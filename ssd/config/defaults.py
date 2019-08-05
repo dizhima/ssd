@@ -65,7 +65,7 @@ _C.DATASETS.TEST = ()
 # -----------------------------------------------------------------------------
 _C.DATA_LOADER = CN()
 # Number of data loading threads
-_C.DATA_LOADER.NUM_WORKERS = 8
+_C.DATA_LOADER.NUM_WORKERS = 1
 _C.DATA_LOADER.PIN_MEMORY = True
 
 # ---------------------------------------------------------------------------- #
