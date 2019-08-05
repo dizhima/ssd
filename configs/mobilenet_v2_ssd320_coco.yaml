@@ -15,7 +15,7 @@ MODEL:
 INPUT:
   IMAGE_SIZE: 320
 DATASETS:
-  TRAIN: ("coco_train_zjlab")
+  TRAIN: ("coco_train_zjlab",)
   TEST: ()
 SOLVER:
   MAX_ITER: 1000
