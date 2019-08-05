@@ -90,6 +90,7 @@ def assign_priors(gt_boxes, gt_labels, corner_form_priors,
     best_target_per_prior, best_target_per_prior_index = ious.max(1)
     # size: num_targets
     best_prior_per_target, best_prior_per_target_index = ious.max(0)
+    print(ious.max(0),'xxxxxx')
 
     for target_index, prior_index in enumerate(best_prior_per_target_index):
         best_target_per_prior_index[prior_index] = target_index
