@@ -53,8 +53,8 @@ class DatasetCatalog:
             "ann_file": "annotations/instances_val2014.json"
         },
         'coco_train_zjlab': {
-            "data_dir": "train",
-            "ann_file": "instances_train.json"
+            "data_dir": "/zsd/train",
+            "ann_file": "/zsd/instances_train.json"
         }
     }
 
