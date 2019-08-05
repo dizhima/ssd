@@ -49,7 +49,7 @@ def main():
     parser = argparse.ArgumentParser(description='Single Shot MultiBox Detector Training With PyTorch')
     parser.add_argument(
         "--config-file",
-        default="mobilenet_v2_ssd320_coco.yaml",
+        default="configs/mobilenet_v2_ssd320_coco.yaml",
         metavar="FILE",
         help="path to config file",
         type=str,
