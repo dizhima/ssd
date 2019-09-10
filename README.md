@@ -1,3 +1,5 @@
+fork from https://github.com/lufficc/SSD for custom data.
+
 # High quality, fast, modular reference implementation of SSD in PyTorch 1.0
 
 
